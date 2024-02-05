@@ -38,12 +38,15 @@ section:nth-child(3) {
   height: 80vh;
   color: white;
 }
-footer {
-  background-color: darkgrey;
-  height: 5vh;
-  text-align: center;
-  color: white;
-  font-weight: 800;
+footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(15,15,15);
+    height: 30vh;
+    text-align: center;
+    color: greenyellow;
+    font-size: 16px;
 }
 
 nav > a {
